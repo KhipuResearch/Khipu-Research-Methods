@@ -1,11 +1,17 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
-description: null
+landing-title: Economic Models, Cultural Systems, and Equity'
+description: 'Methods-forward research on multi-scale modeling, behavioral heterogeneity, and policy-relevant system design.'
 image: null
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+This site publishes a sequence of research papers and technical essays focused on the integration of economic modeling,
+agent-based simulation, and cultural analysis.
+
+The central concern is structural: how large-scale equilibrium models can be meaningfully extended to account for
+heterogeneity, behavior, and institutional context without collapsing into narrative speculation or false precision.
+
+New work is added over time. Older papers are revised, superseded, or explicitly bounded as assumptions change.
