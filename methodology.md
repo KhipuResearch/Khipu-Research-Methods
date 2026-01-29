@@ -2,7 +2,7 @@
 layout: post
 title: Methodological Position
 description: Our stance on abstraction, uncertainty, and the limits of quantification
-image: assets/images/connecting-lines-dots-with-floating-particles.jpg
+image: assets/images/20945194.jpg
 nav-menu: true
 show_tile: false
 ---
