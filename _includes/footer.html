@@ -2,24 +2,85 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
+			<form id="contact-form">
 				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
+					<label for="contact-firstname">First Name</label>
+					<input type="text" name="firstname" id="contact-firstname" required />
 				</div>
 				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
+					<label for="contact-lastname">Last Name</label>
+					<input type="text" name="lastname" id="contact-lastname" required />
+				</div>
+				<div class="field half first">
+					<label for="contact-email">Email</label>
+					<input type="email" name="email" id="contact-email" required />
+				</div>
+				<div class="field half">
+					<label for="contact-phone">Phone Number</label>
+					<input type="tel" name="phone" id="contact-phone" />
 				</div>
 				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
+					<label for="contact-message">Message</label>
+					<textarea name="message" id="contact-message" rows="6" required></textarea>
 				</div>
 				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
+					<li><input type="submit" value="Send Message" class="special" id="contact-submit-btn" /></li>
 					<li><input type="reset" value="Clear" /></li>
 				</ul>
 			</form>
+			<div id="contact-form-status" style="display: none; padding: 1em; margin-top: 1em; border-radius: 4px;"></div>
+			<script>
+			document.getElementById('contact-form').addEventListener('submit', function(e) {
+				e.preventDefault();
+				var portalId = '244094806';
+				var formId = '4d665b58-bfa5-4fbd-9f46-1e53e4205c1a';
+				var submitBtn = document.getElementById('contact-submit-btn');
+				var statusDiv = document.getElementById('contact-form-status');
+				submitBtn.disabled = true;
+				submitBtn.value = 'Sending...';
+				var formData = {
+					fields: [
+						{ name: 'firstname', value: document.getElementById('contact-firstname').value },
+						{ name: 'lastname', value: document.getElementById('contact-lastname').value },
+						{ name: 'email', value: document.getElementById('contact-email').value },
+						{ name: 'phone', value: document.getElementById('contact-phone').value },
+						{ name: 'message', value: document.getElementById('contact-message').value }
+					],
+					context: {
+						pageUri: window.location.href,
+						pageName: document.title
+					}
+				};
+				fetch('https://api.hsforms.com/submissions/v3/integration/submit/' + portalId + '/' + formId, {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify(formData)
+				})
+				.then(function(response) {
+					if (response.ok) {
+						statusDiv.style.display = 'block';
+						statusDiv.style.backgroundColor = '#d4edda';
+						statusDiv.style.color = '#155724';
+						statusDiv.innerHTML = '<strong>Thank you!</strong> Your message has been sent successfully.';
+						document.getElementById('contact-form').reset();
+						submitBtn.disabled = false;
+						submitBtn.value = 'Send Message';
+					} else {
+						return response.json().then(function(data) {
+							throw new Error(data.message || 'Submission failed');
+						});
+					}
+				})
+				.catch(function(error) {
+					statusDiv.style.display = 'block';
+					statusDiv.style.backgroundColor = '#f8d7da';
+					statusDiv.style.color = '#721c24';
+					statusDiv.innerHTML = '<strong>Error:</strong> ' + error.message + '<br>Please try again or email us directly.';
+					submitBtn.disabled = false;
+					submitBtn.value = 'Send Message';
+				});
+			});
+			</script>
 		</section>
 		<section class="split">
 			<section>
