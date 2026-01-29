@@ -1,57 +1,119 @@
-# CGE–ABM Equity Research Archive
+# Khipu Research Methods
 
-This repository hosts a living research archive focused on methods-forward economic modeling at the intersection of
-macroeconomic equilibrium, agent-based simulation, cultural systems, and distributional equity.
+**Official documentation site for Khipu Research Labs (KRL) frameworks**
 
-The site is published via GitHub Pages using the Forty Jekyll theme and serves as a canonical, link-stable reference
-for papers, technical notes, and works-in-progress released over time.
+This repository hosts the source of truth for KRL framework documentation—computational tools for understanding the intersection of economic systems, cultural dynamics, and social equity.
 
-## Purpose and Scope
+**Live Site:** [khipuresearch.github.io/Khipu-Research-Methods](https://khipuresearch.github.io/Khipu-Research-Methods/)
 
-The materials published here are architectural rather than predictive. They are designed to:
-- Explore structural integrations between CGE models and agent-based models (ABMs)
-- Examine how cultural, behavioral, and institutional heterogeneity can be represented without false precision
-- Provide transparent assumptions, bounded claims, and explicit validation status
+## Purpose
 
-This is not a product site, marketing blog, or forecasting platform. It is a research surface intended for critical
-engagement by economists, computational social scientists, policy analysts, and related practitioners.
+Khipu Research Labs develops rigorous, transparent, and accessible research frameworks that support equitable policy deliberation. This site serves as the canonical reference for:
 
-## Publication Model
+- **Framework Documentation** — IMRAD-structured summaries of each framework (Introduction, Methods, Results, Discussion)
+- **Full Whitepapers** — Complete technical documentation available via registration
+- **Methodological Position** — Our stance on abstraction, uncertainty, and the limits of quantification
 
-Content is released incrementally and may include:
-- Full research papers (versioned and citable)
-- Shorter methodological notes and framing essays
-- Clarifications, revisions, or boundary-setting updates to prior work
+## Available Frameworks
 
-Earlier papers may be revised, superseded, or explicitly constrained as assumptions change or new evidence emerges.
+### CGE-ABM Framework for Cultural-Economic Systems
+A multi-scale approach integrating Computable General Equilibrium (CGE) models with Agent-Based Modeling (ABM) for equity analysis. The framework enables exploration of how economic policies interact with social and cultural dynamics to produce distributional outcomes.
+
+**Key Features:**
+- Bi-directional coupling between macro equilibrium and micro heterogeneity
+- Explicit equity measurement (Gini, Theil, Atkinson indices)
+- Cultural trait evolution via social networks and media influence
+- Scenario exploration for policy deliberation
+
+*Additional frameworks will be added as development and validation proceed.*
+
+## Site Structure
+
+| Page | Description |
+|------|-------------|
+| **Home** | Framework tiles with IMRAD summaries |
+| **Landing** | Overview of KRL research archive |
+| **Methodology** | Core principles and methodological position |
+| **About** | Khipu Research Labs background and mission |
+| **Register** | Gated access to full whitepaper downloads |
+| **All Posts** | Archive of all framework papers |
+
+## Accessing Full Whitepapers
+
+Complete technical documentation is available to registered users. Registration captures:
+- Contact information for research community engagement
+- Framework interest for targeted updates
+- Use case for understanding community needs
+
+Registration is integrated with HubSpot for lead management.
+
+## Technical Stack
+
+- **Static Site Generator:** Jekyll 4.x
+- **Theme:** Forty (HTML5 UP), customized for research publication
+- **Hosting:** GitHub Pages
+- **Forms:** HubSpot Forms API integration
+- **CI/CD:** GitHub Actions for automated deployment
+
+## Local Development
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve locally
+bundle exec jekyll serve
+
+# Build for production
+bundle exec jekyll build
+```
+
+## Repository Structure
+
+```
+├── _config.yml          # Jekyll configuration
+├── _layouts/            # Page templates
+├── _includes/           # Reusable components (header, footer)
+├── _posts/              # Framework papers (IMRAD summaries)
+├── _sass/               # Theme styles
+├── assets/
+│   ├── css/             # Compiled styles
+│   ├── images/          # Page images and banners
+│   ├── downloads/       # Whitepaper files (PDF)
+│   ├── fonts/           # Font Awesome icons
+│   └── js/              # JavaScript files
+├── index.md             # Home page
+├── landing.md           # Landing page
+├── methodology.md       # Methodological position
+├── about.md             # About KRL
+├── register.md          # Registration form
+└── all_posts.md         # Framework archive
+```
 
 ## Use and Citation
 
-All content is intended for research, policy exploration, and scholarly discussion.
-Citation guidance and version histories are provided within individual papers.
+All materials are intended for research, policy exploration, and scholarly discussion. Citation guidance is provided within individual framework papers.
 
-Nothing in this repository should be interpreted as policy advice, regulatory guidance, or predictive economic output.
+**Important:** Framework outputs are decision-support tools for exploration, not predictive engines. They quantify trade-offs but cannot determine optimal policy—that requires normative judgments and democratic deliberation.
 
-## Site Technology
+## Contact
 
-- Static site generator: Jekyll
-- Theme: Forty (HTML5 UP), adapted for research publication
-- Hosting: GitHub Pages
+**Khipu Research Labs**
+16192 Coastal Highway
+Lewes, DE 19958
 
-Theme documentation and original credits are preserved below for transparency.
+**Email:** info@krlabs.dev
+**GitHub:** [KhipuResearch](https://github.com/KhipuResearch)
+
+## License
+
+Content is released under permissive licensing for research and educational use. Theme components retain their original licenses (MIT for Jekyll integration, CCA 3.0 for HTML5 UP design).
 
 ---
 
-## Theme Credits (Upstream)
+### Theme Credits
 
-Forty by HTML5 UP  
-https://html5up.net | @ajlkn
-
-Jekyll theme adaptation by Andrew Banchich  
-https://github.com/andrewbanchich/forty-jekyll-theme
-
-Demo images courtesy of Unsplash (CC0)
-
-Icons: Font Awesome  
-Libraries: jQuery, html5shiv.js, Respond.js, Skel
-
+- **Forty** by HTML5 UP — [html5up.net](https://html5up.net)
+- **Jekyll Integration** by Andrew Banchich — [github.com/andrewbanchich](https://github.com/andrewbanchich/forty-jekyll-theme)
+- **Icons:** Font Awesome
+- **Libraries:** jQuery, Skel
