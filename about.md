@@ -2,7 +2,7 @@
 layout: post
 title: About
 description: Khipu Research Labs and the Khipu Research Methods Archive
-image: assets/images/pic11.jpg
+image: assets/images/solution-question-system-problem-solving-concept.jpg
 nav-menu: true
 ---
 
