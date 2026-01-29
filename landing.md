@@ -29,27 +29,27 @@ nav-menu: true
 <section id="two" class="spotlights">
 
 	<section>
-		<a href="/papers/" class="image">
+		<a href="{{ site.baseurl }}/all_posts.html" class="image">
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Research Papers</h3>
+					<h3>KRL Framework Papers</h3>
 				</header>
 				<p>
-					Peer-oriented papers detailing modeling frameworks, theoretical integrations, and methodological tradeoffs.
-					Each paper is versioned, bounded in scope, and explicit about validation status.
+					IMRAD-structured summaries of Khipu Research Labs frameworks for economic modeling, cultural systems analysis,
+					and equity-aware policy exploration. Each paper includes download links to full whitepapers.
 				</p>
 				<ul class="actions">
-					<li><a href="/papers/" class="button">View Papers</a></li>
+					<li><a href="{{ site.baseurl }}/all_posts.html" class="button">View Frameworks</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 
 	<section>
-		<a href="/about/" class="image">
+		<a href="{{ site.baseurl }}/generic.html" class="image">
 			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
 		</a>
 		<div class="content">
@@ -62,27 +62,27 @@ nav-menu: true
 					and social dynamics intersect with economic systems.
 				</p>
 				<ul class="actions">
-					<li><a href="/about/" class="button">Read the Position</a></li>
+					<li><a href="{{ site.baseurl }}/generic.html" class="button">Read the Position</a></li>
 				</ul>
 			</div>
 		</div>
 	</section>
 
 	<section>
-		<a href="/posts/" class="image">
+		<a href="{{ site.baseurl }}/assets/downloads/" class="image">
 			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Ongoing Work</h3>
+					<h3>Full Whitepapers</h3>
 				</header>
 				<p>
-					Shorter posts, technical notes, and framing essays that document works-in-progress,
-					open questions, and design decisions between major paper releases.
+					Complete technical documentation for each framework, including detailed methodology,
+					validation protocols, governance considerations, and implementation guidance.
 				</p>
 				<ul class="actions">
-					<li><a href="/posts/" class="button">Explore Posts</a></li>
+					<li><a href="{{ site.baseurl }}/assets/downloads/" class="button">Download Reports</a></li>
 				</ul>
 			</div>
 		</div>
@@ -98,10 +98,11 @@ nav-menu: true
 		</header>
 		<p>
 			All materials published here are intended for research, policy exploration, and critical engagement.
-			Citation guidance and version histories are provided within individual papers.
+			Citation guidance and version histories are provided within individual papers. Full whitepapers are
+			available for download under permissive licensing.
 		</p>
 		<ul class="actions">
-			<li><a href="/papers/" class="button next">Begin Reading</a></li>
+			<li><a href="{{ site.baseurl }}/all_posts.html" class="button next">Explore Frameworks</a></li>
 		</ul>
 	</div>
 </section>
