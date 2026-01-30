@@ -10,6 +10,49 @@ This domain treats cultural dynamics as first-class variables in economic analys
 
 ---
 
+## Technical Approach
+
+### Problems Addressed
+
+- **Cultural externality treatment** — Standard economic models treat arts and culture as consumption residuals, missing their role in shaping preferences and behavior
+- **Creative economy measurement** — GDP and employment statistics undercount creative occupations embedded across industries
+- **Media influence opacity** — Information campaigns affect behavior, but effects are difficult to quantify with standard survey methods
+- **Cultural access inequality** — Geographic and demographic disparities in cultural opportunity lack systematic measurement
+- **Valuation challenges** — Intangible cultural assets resist standard financial valuation methods
+
+### Methodological Foundations
+
+Our frameworks integrate cultural economics with computational social science:
+
+| Method | Application | Key References |
+|--------|-------------|----------------|
+| **Cultural Satellite Accounts** | Arts sector contribution to GDP | UNESCO Framework for Cultural Statistics |
+| **CGE with Cultural Sectors** | General equilibrium with creative industry disaggregation | Applied general equilibrium methods |
+| **Agent-Based Cultural Dynamics** | Preference evolution and social influence | Axelrod cultural dissemination models |
+| **Media Reach Modeling** | Campaign exposure and behavioral response | Advertising effectiveness literature |
+| **Cultural Opportunity Indices** | Access, participation, and infrastructure metrics | NEA Arts Participation Survey methodology |
+| **IP Valuation** | Intellectual property and content lifecycle analysis | Real options and DCF approaches |
+
+### Analysis Outputs
+
+- **Contribution metrics** — Direct, indirect, and induced economic impact of cultural sectors
+- **Behavioral simulations** — Agent-based projections of cultural trait evolution and media influence
+- **Opportunity indices** — Cultural access scores by geography and demographic group
+- **Equity decompositions** — Distributional analysis of cultural participation and investment
+- **Valuation estimates** — Economic value of cultural assets, content portfolios, and IP
+
+### Appropriate Applications
+
+- Arts and culture economic impact studies
+- Creative economy development planning
+- Public interest media campaign design
+- Cultural equity assessment and policy
+- Foundation and NEA grant applications
+- Museum, theater, and venue strategic planning
+- Content and IP portfolio valuation
+
+---
+
 ## Available Frameworks
 
 <div class="row">
