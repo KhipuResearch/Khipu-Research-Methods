@@ -18,6 +18,11 @@ nav-menu: true
 			and the design of alternative, multi-scale frameworks that integrate culture, behavior, and distributional equity.
 		</p>
 		<p>
+			Our frameworks address a critical gap in policy analysis: the absence of tools that treat <strong>cultural dynamics as first-class variables</strong>
+			rather than residual categories. Arts, media, and creative industries shape economic behavior, policy preferences, and community resilience—yet
+			most analytical tools treat culture as an externality or afterthought.
+		</p>
+		<p>
 			The work published here is methods-forward by design. It prioritizes modeling architecture, epistemic transparency,
 			and governance over predictive claims. Papers are released iteratively as frameworks mature, validations proceed,
 			and assumptions are stress-tested.

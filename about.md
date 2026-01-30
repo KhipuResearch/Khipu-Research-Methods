@@ -69,6 +69,51 @@ Our frameworks support diverse stakeholders requiring rigorous, equity-centered 
 
 Our role is **analytical infrastructure**—we provide the computational foundation that enables rigorous research, not the research conclusions themselves.
 
+### Example Applications
+
+Our frameworks address real-world analytical challenges across sectors:
+
+**Development & Poverty Analysis**
+- Automated computation of multidimensional poverty indices with demographic decomposition
+- Human development indicator tracking aligned with SDG reporting requirements
+- Inequality-adjusted metrics for program targeting and evaluation
+
+**Policy Impact Evaluation**
+- Distributional analysis of tax and transfer policies across income groups
+- Regulatory impact assessment with equity-weighted cost-benefit analysis
+- Legislative effect estimation for health, education, and housing programs
+
+**Cultural & Creative Economy**
+- Economic contribution measurement for arts, media, and cultural sectors
+- Cultural opportunity indices for community investment prioritization
+- Media reach and influence analysis for public interest communications
+
+**Climate & Environment**
+- Equity-augmented integrated assessment for climate adaptation planning
+- Environmental justice screening with spatial causal analysis
+- Natural resource accounting integrated with economic modeling
+
+### Working With Us
+
+KRL operates as **analytical infrastructure for research partnerships**, not as a competing research organization. Our engagement models include:
+
+**Technical Subawards**
+- Computational infrastructure for funded research programs
+- Methodology implementation for grant-supported projects
+- Reproducibility and audit support for evaluation contracts
+
+**Capacity Building**
+- Framework training for research teams and agency staff
+- Documentation and knowledge transfer for institutional adoption
+- Custom configuration for domain-specific applications
+
+**Collaborative Development**
+- Co-design of new analytical capabilities with research partners
+- Validation partnerships with domain experts
+- Open-source contributions to shared methodological infrastructure
+
+We prioritize partnerships where our infrastructure enables others' research missions rather than competing for the same funding streams.
+
 ---
 
 ## About Khipu Research Methods

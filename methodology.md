@@ -127,6 +127,29 @@ Validation status is tracked transparently. Users should not apply frameworks be
 
 ---
 
+## Evidence Standards and Accountability
+
+Modern policy research increasingly operates within formal evidence requirements. Legislative mandates, regulatory guidance, and funder expectations establish standards for how analysis must be conducted, documented, and reported. Our frameworks are designed with these accountability structures in mind:
+
+**Reproducibility Infrastructure**
+- Complete audit trails from raw data to final outputs
+- Version-controlled methodology with documented parameter choices
+- Automated reporting that maintains consistency across evaluation cycles
+
+**Documentation Standards**
+- Methodology documentation aligned with evidence review requirements
+- Clear separation of empirical findings, modeling assumptions, and interpretive claims
+- Structured uncertainty communication suitable for policy audiences
+
+**Quality Assurance**
+- Systematic bias audits for input data sources
+- Sensitivity analyses that bound the influence of assumption choices
+- Peer review protocols for validation before policy application
+
+These design choices support research programs operating under formal evidence mandates—whether for program evaluation, regulatory analysis, or grant reporting requirements.
+
+---
+
 ## Governance and Accountability
 
 Methodological integrity requires institutional accountability:
