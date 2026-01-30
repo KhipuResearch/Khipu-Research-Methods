@@ -14,7 +14,7 @@ This domain treats cultural dynamics as first-class variables in economic analys
 
 <div class="row">
     <div class="12u">
-        <h3><a href="{{ site.baseurl }}/2026/01/22/cge_abm_framework.html">CGE-ABM Framework for Cultural-Economic Systems</a></h3>
+        <h3><a href="{% post_url 2026-01-22-cge_abm_framework %}">CGE-ABM Framework for Cultural-Economic Systems</a></h3>
         <p><strong>Status:</strong> In Development | <strong>Validation Target:</strong> Q4 2026 - Q1 2027</p>
         <p>
             A multi-scale approach integrating Computable General Equilibrium (CGE) with Agent-Based Modeling (ABM)
@@ -22,7 +22,7 @@ This domain treats cultural dynamics as first-class variables in economic analys
             impacts of policy interventions.
         </p>
         <ul class="actions">
-            <li><a href="{{ site.baseurl }}/2026/01/22/cge_abm_framework.html" class="button small">View Summary</a></li>
+            <li><a href="{% post_url 2026-01-22-cge_abm_framework %}" class="button small">View Summary</a></li>
             <li><a href="{{ site.baseurl }}/register.html" class="button small special">Download Whitepaper</a></li>
         </ul>
     </div>
