@@ -93,6 +93,26 @@ nav-menu: true
 		</div>
 	</section>
 
+	<section>
+		<a href="{{ site.baseurl }}/platform.html" class="image">
+			<img src="{% link assets/images/connecting-lines-dots-with-floating-particles.jpg %}" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Platform Capabilities</h3>
+				</header>
+				<p>
+					Evidence infrastructure for policy analysis. Causal inference, equity analytics,
+					economic modeling, and spatial analysis—with complete audit trails and enterprise security.
+				</p>
+				<ul class="actions">
+					<li><a href="{{ site.baseurl }}/platform.html" class="button">View Capabilities</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
 </section>
 
 <!-- Three -->
