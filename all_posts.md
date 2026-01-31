@@ -1,12 +1,13 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Knowledge Domains
+landing-title: 'Knowledge Domains'
 nav-menu: true
-description: null
+description: Framework documentation across six analytical domains
 image: null
 author: null
 show_tile: false
+weight: 5
 ---
 
-<h1>All posts</h1>
+<h1>Knowledge Domains</h1>

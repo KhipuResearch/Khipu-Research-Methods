@@ -3,7 +3,7 @@ title: Khipu Research Methods
 layout: landing
 description: 'Computational frameworks that integrate culture, behavior, and equity into economic analysis—for research programs that refuse to simplify what matters.'
 image: assets/images/pic07.jpg
-nav-menu: true
+nav-menu: false
 ---
 <div id="main">
 

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Platform Capabilities
+title: Khipu Capabilities
 description: Evidence infrastructure for policy analysis
 image: assets/images/pic07.jpg
 nav-menu: true
 show_tile: false
+weight: 2
 ---
 
 <!-- Main -->

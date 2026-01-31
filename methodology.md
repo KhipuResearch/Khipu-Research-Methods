@@ -5,6 +5,7 @@ description: Our stance on abstraction, uncertainty, and the limits of quantific
 image: assets/images/20943400.jpg
 nav-menu: true
 show_tile: false
+weight: 4
 ---
 
 ## Core Principles

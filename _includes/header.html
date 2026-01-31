@@ -20,14 +20,15 @@
 		        <li><a href="{{ "" | absolute_url }}/">{{ page.title }}</a></li>
 	    	{% endif %}
 		{% endfor %}
-		{% for page in site.html_pages %}
-		    {% if page.layout != "home" and page.nav-menu == true %}
+		{% assign sorted_pages = site.html_pages | where: "nav-menu", true | sort: "weight" %}
+		{% for page in sorted_pages %}
+		    {% if page.layout != "home" %}
 		        <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
 		    {% endif %}
 		{% endfor %}
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
+		<li><a href="{{ site.baseurl }}/register.html" class="button special fit">Get Started</a></li>
+		<li><a href="mailto:info@krlabs.dev" class="button fit">Contact Us</a></li>
 	</ul>
 </nav>

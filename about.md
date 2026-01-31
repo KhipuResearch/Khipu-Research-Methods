@@ -1,9 +1,10 @@
 ---
 layout: post
-title: About
+title: About Khipu Research
 description: Khipu Research Labs and the Khipu Research Methods Archive
 image: assets/images/solution-question-system-problem-solving-concept.jpg
 nav-menu: true
+weight: 3
 ---
 
 ## About Khipu Research Labs
