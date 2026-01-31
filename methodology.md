@@ -114,6 +114,8 @@ Each assumption is documented with its implications for interpretation and appli
 
 ## Validation Philosophy
 
+<span class="image right"><img src="{% link assets/images/20945194.jpg %}" alt="Validation and verification processes" /></span>
+
 Validation establishes that frameworks behave as intended and produce outputs consistent with known patterns. It cannot prove a model is "true" or guarantee accuracy for novel scenarios.
 
 Our validation process includes:
@@ -152,6 +154,8 @@ These design choices support research programs operating under formal evidence m
 ---
 
 ## Governance and Accountability
+
+<span class="image left"><img src="{% link assets/images/accountability-abstract-concept/20943964.jpg %}" alt="Governance and accountability" /></span>
 
 Methodological integrity requires institutional accountability:
 

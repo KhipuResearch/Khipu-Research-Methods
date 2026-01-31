@@ -202,6 +202,8 @@ Available frameworks include Basel III capital modeling, CECL credit loss estima
 
 <h2>Data Integration</h2>
 
+<span class="image right"><img src="{% link assets/images/20944226.jpg %}" alt="Data integration and analytics" /></span>
+
 <p>
 Policy analysis fails at data integration more often than at modeling. Analysts spend the majority of project time locating, cleaning, and harmonizing data—before any analysis begins. The platform eliminates this bottleneck through pre-built connectors to authoritative sources.
 </p>
@@ -319,6 +321,8 @@ Match your question type to the recommended analytical approach.
 <hr class="major" />
 
 <h2>Security & Compliance</h2>
+
+<span class="image left"><img src="{% link assets/images/Data_security_05.jpg %}" alt="Data security and compliance" /></span>
 
 <p>
 Organizations deploying analytical infrastructure for policy decisions require assurance that data is handled responsibly and results are defensible.
