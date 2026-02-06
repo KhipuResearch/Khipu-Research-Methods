@@ -31,7 +31,7 @@ Our frameworks integrate multiple methodological traditions:
 
 ### Research Domains
 
-<span class="image right"><img src="{% link assets/images/gradient-network-connection-background/5072609.jpg %}" alt="Research domains and interconnected analysis" /></span>
+<span class="image right"><img src="{% link assets/images/5072609.jpg %}" alt="Research domains and interconnected analysis" /></span>
 
 KRL research spans six interconnected domains, each addressing distinct analytical needs while sharing common methodological foundations:
 
@@ -74,7 +74,7 @@ Our role is **analytical infrastructure**—we provide the computational foundat
 
 ### Example Applications
 
-<span class="image left"><img src="{% link assets/images/flat-hand-drawn-business-analysis-illustration/563.jpg %}" alt="Real-world applications" /></span>
+<span class="image left"><img src="{% link assets/images/563.jpg %}" alt="Real-world applications" /></span>
 
 Our frameworks address real-world analytical challenges across sectors:
 
@@ -100,7 +100,7 @@ Our frameworks address real-world analytical challenges across sectors:
 
 ### Working With Us
 
-<span class="image right"><img src="{% link assets/images/hand-drawn-international-employees-illustration/7482509.jpg %}" alt="Partnership and collaboration" /></span>
+<span class="image right"><img src="{% link assets/images/7482509.jpg %}" alt="Partnership and collaboration" /></span>
 
 KRL operates as **analytical infrastructure for research partnerships**, not as a competing research organization. Our engagement models include:
 

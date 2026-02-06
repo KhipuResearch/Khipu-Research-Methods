@@ -155,7 +155,7 @@ These design choices support research programs operating under formal evidence m
 
 ## Governance and Accountability
 
-<span class="image left"><img src="{% link assets/images/accountability-abstract-concept/20943964.jpg %}" alt="Governance and accountability" /></span>
+<span class="image left"><img src="{% link assets/images/20943964.jpg %}" alt="Governance and accountability" /></span>
 
 Methodological integrity requires institutional accountability:
 
